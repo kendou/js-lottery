@@ -8,7 +8,7 @@ body{
 }
 
 #lottery {
-  bottom: 10px;
+  bottom: 150px;
   position: fixed;
   width: 994px;
 }
@@ -67,7 +67,7 @@ body{
     bottom: 0;
     height: 150px;
     left: -5px;
-    margin: -255px auto 0;
+    margin: -155px auto 0;
     position: relative;
     width: 142px;
 }
@@ -76,7 +76,7 @@ body{
     display: table;
     width: 100%;
     table-layout: fixed;
-    border-spacing: 10px;
+    border-spacing: 0px;
 }
 
 .Column{
