@@ -10,37 +10,44 @@
 
 <div id="wrapper">
     <div id="lottery">
-        <div id="lottery-hero">
-            <img src="pic/" alt="" style="display:none" />
+        <div class="Row" id="row">
+          <div class="Column">
+            <button class="ctlButton" type="button" onclick="Lottery.start()">Start</button>
+          </div>
+          <div class="Column" id="lottery-hero">
+              <img src="pic/" alt="" style="display:none" />
+          </div>
+          <div class="Column">
+            <button class="ctlButton" type="button" onclick="Lottery.stop()">Stop</button>
+          </div>
         </div>
-
         <div id="lottery-container">
             <ul>
-                <li><img src="pic/1.jpg"></li>
-                <li><img src="pic/2.jpg"></li>
-                <li><img src="pic/3.jpg"></li>
-                <li><img src="pic/4.jpg"></li>
-                <li><img src="pic/5.jpg"></li>
-                <li><img src="pic/6.jpg"></li>
-                <li><img src="pic/7.jpg"></li>
-                <li><img src="pic/8.jpg"></li>
-                <li><img src="pic/9.jpg"></li>
-                <li><img src="pic/10.jpg"></li>
-                <li><img src="pic/11.jpg"></li>
-                <li><img src="pic/12.jpg"></li>
-                <li><img src="pic/13.jpg"></li>
-                <li><img src="pic/14.jpg"></li>
-                <li><img src="pic/15.jpg"></li>
-                <li><img src="pic/16.jpg"></li>
-                <li><img src="pic/17.jpg"></li>
-                <li><img src="pic/18.jpg"></li>
-                <li><img src="pic/19.jpg"></li>
-                <li><img src="pic/20.jpg"></li>
+                <li><img src="pic/chenjie.jpg"></li>
+                <li><img src="pic/chenzhen.jpg"></li>
+                <li><img src="pic/deepthi.jpg"></li>
+                <li><img src="pic/dingguangfeng.jpg"></li>
+                <li><img src="pic/huangjian.jpg"></li>
+                <li><img src="pic/lilei.jpg"></li>
+                <li><img src="pic/liwei.jpg"></li>
+                <li><img src="pic/qiaojinzhu.jpg"></li>
+                <li><img src="pic/shikaixuan.jpg"></li>
+                <li><img src="pic/wangjialin.jpg"></li>
+                <li><img src="pic/wuli.jpg"></li>
+                <li><img src="pic/xiezhimin.jpg"></li>
+                <li><img src="pic/yangjunli.jpg"></li>
+                <li><img src="pic/yueyingjie.jpg"></li>
+                <li><img src="pic/yujiangbo.jpg"></li>
+                <li><img src="pic/zengyingxue.jpg"></li>
+                <li><img src="pic/zhanghongsheng.jpg"></li>
+                <li><img src="pic/zhangshousi.jpg"></li>
+                <li><img src="pic/zhangxiang.jpg"></li>
             </ul>
         </div>
+        
         <div id="lottery-control">
-            <a href="#" onclick="Lottery.start()">START</a>
-            <a href="#" onclick="Lottery.stop()">STOP</a>
+            <a href="#" onclick="return false"> </a>
+            <a href="#" onclick="return false"> </a>
         </div>
         <div id="lottery-selected"></div>
     </div>

@@ -35,8 +35,8 @@ body{
 }
 
 #lottery-control {
-  height: 14px;
-  margin: 40px auto 0;
+  height: 100px;
+  margin: 10px auto 0;
   width: 100px;
 }
 
@@ -59,17 +59,36 @@ body{
     position: relative;
     overflow: hidden;
     width: 994px;
-    height: 75px;
+    height: 150px;
 }
 
 #lottery-selected {
     border: 2px dashed #ff0;
     bottom: 0;
-    height: 80px;
+    height: 150px;
     left: -5px;
-    margin: -133px auto 0;
+    margin: -255px auto 0;
     position: relative;
     width: 142px;
+}
+
+.Row{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
+.Column{
+    display: table-cell;
+    text-align: center;
+//    background-color: red;
+}
+
+.ctlButton{
+	height: 100px;
+	width: 200px;
+	font-size: 24px;
 }
 
 #lottery-hero{
