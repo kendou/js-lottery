@@ -8,7 +8,7 @@ body{
 }
 
 #lottery {
-  bottom: 150px;
+  bottom: 10px;
   position: fixed;
   width: 994px;
 }
@@ -82,7 +82,7 @@ body{
 .Column{
     display: table-cell;
     text-align: center;
-//    background-color: red;
+    vertical-align: center;
 }
 
 .ctlButton{
@@ -92,14 +92,19 @@ body{
 }
 
 #lottery-hero{
+    position: relative;
     border: medium none;
     box-shadow: 5px 5px 30px #FFFF00;
-    margin: 0 auto 9%;
+    margin: 0 auto;
     width: 300px;
+    height: 450px;
 }
 
 #lottery-hero img{
+    position: absolute;
+    bottom: 0;
     width: 300px;
+    height: 450px;
 }
 
 
