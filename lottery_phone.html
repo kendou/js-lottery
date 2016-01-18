@@ -15,13 +15,16 @@
         <div id="lottery-hero">
             <span></span>
         </div>
-
+        <div class="Row" id="row">
+          <div class="Column">
+            <button class="ctlButton" type="button" onclick="Lottery.start()">Start</button>
+          </div>
+          <div class="Column">
+            <button class="ctlButton" type="button" onclick="Lottery.stop()">Stop</button>
+          </div>
+        </div>
         <div id="lottery-container" data-url="phone.txt">
             <ul></ul>
-        </div>
-        <div id="lottery-control">
-            <a href="#" onclick="Lottery.start()">START</a>
-            <a href="#" onclick="Lottery.stop()">STOP</a>
         </div>
         <div id="lottery-selected"></div>
     </div>
