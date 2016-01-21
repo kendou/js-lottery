@@ -13,7 +13,14 @@
         <div id="lottery-hero">
             <img src="pic/" alt="" style="display:none" />
         </div>
-
+        <div class="Row" id="row">
+          <div class="Column">
+            <button class="ctlButton" type="button" onclick="Lottery.start()">Start</button>
+          </div>
+          <div class="Column">
+            <button class="ctlButton" type="button" onclick="Lottery.stop()">Stop</button>
+          </div>
+        </div>
         <div id="lottery-container">
             <ul>
                 <li><img src="pic/1.jpg"></li>
@@ -38,10 +45,7 @@
                 <li><img src="pic/20.jpg"></li>
             </ul>
         </div>
-        <div id="lottery-control">
-            <a href="#" onclick="Lottery.start()">START</a>
-            <a href="#" onclick="Lottery.stop()">STOP</a>
-        </div>
+
         <div id="lottery-selected"></div>
     </div>
 </div>
